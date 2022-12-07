@@ -19,12 +19,13 @@ div {
 #középső {
     display: flex;
     flex-direction: row;
-    flex-grow: 1 //Ha van lehetőség növekedni, növekedni fog
+    flex-grow: 1 /*//Ha van lehetőség növekedni, növekedni fog*/
 }
 
 #válaszok {
     flex-grow: 1;
     flex-shrink: 1;
+    pointer-events: none
 }
 
 #vezérlő {
@@ -35,12 +36,14 @@ div {
 
 #kép {
     overflow: hidden;
-    //Felesleges, a kép túlnyúló részét rejtené el flex-shrink:0;
+    /* a kép túlnyúló részét rejti el */    
+    flex-shrink:0; 
 }
 
 .gomb {
     padding: 20px;
     width: 80px;
+    pointer-events: auto;
 }
 
 .kerdes {

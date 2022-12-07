@@ -31,5 +31,15 @@ namespace KilencedikHet_K158DZ.Controllers
 
             return new JsonResult(kérdés);
         }
+
+        [HttpGet]
+        [Route("questions/count")]
+        public int M4() 
+        {
+            HajosContext context = new HajosContext();
+            int kérdésekSzáma = context.Questions.Count();
+
+            return kérdésekSzáma;
+        }
     }
 }

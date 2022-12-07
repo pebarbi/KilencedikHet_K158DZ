@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32802.462
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KilencedikHet_K158DZ", "KilencedikHet_K158DZ\KilencedikHet_K158DZ.csproj", "{1AB02009-2B08-4C6C-B109-8B51E5C26333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KilencedikHet_K158DZ", "KilencedikHet_K158DZ\KilencedikHet_K158DZ.csproj", "{1AB02009-2B08-4C6C-B109-8B51E5C26333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_12het_K158DZ", "Excel_12het_K158DZ\Excel_12het_K158DZ.csproj", "{BA1B8D13-B42C-4181-8458-807F506DFD98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1AB02009-2B08-4C6C-B109-8B51E5C26333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB02009-2B08-4C6C-B109-8B51E5C26333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB02009-2B08-4C6C-B109-8B51E5C26333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1B8D13-B42C-4181-8458-807F506DFD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1B8D13-B42C-4181-8458-807F506DFD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1B8D13-B42C-4181-8458-807F506DFD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1B8D13-B42C-4181-8458-807F506DFD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
