@@ -25,7 +25,6 @@ div {
 #válaszok {
     flex-grow: 1;
     flex-shrink: 1;
-    pointer-events: none
 }
 
 #vezérlő {
@@ -43,7 +42,6 @@ div {
 .gomb {
     padding: 20px;
     width: 80px;
-    pointer-events: auto;
 }
 
 .kerdes {

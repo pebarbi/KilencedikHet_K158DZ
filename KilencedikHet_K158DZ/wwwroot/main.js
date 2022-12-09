@@ -41,7 +41,7 @@ function kérdésMegjelenítés() {
 ////}
 
 var hotList = [];
-var questionsInHotList = 3;
+var questionsInHotList = 7;
 var displayedQuestion;
 var numberOfQuestions;
 var nextQuestion = 1;
@@ -97,11 +97,11 @@ function vissza() {
     kérdésBetöltés(questionId)
 }
 
-//function előre() {
-//    displayedQuestion++;
-//    if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
-//    kérdésMegjelenítés()
-//}
+function előre() {
+    displayedQuestion++;
+    if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
+    kérdésMegjelenítés()
+}
 
 
 window.onload = function (e) {
@@ -129,12 +129,12 @@ function választás(n) {
     }
 }
 
-var timeoutHandler;
-timeoutHandler = setTimeout(előre, 3000);
+//var timeoutHandler;
+//timeoutHandler = setTimeout(előre, 3000);
 
-function előre() {
-    clearTimeout(timeoutHandler)
-    displayedQuestion++;
-    if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
-    kérdésMegjelenítés()
-}
+//function előre() {
+//    clearTimeout(timeoutHandler)
+//    displayedQuestion++;
+//    if (displayedQuestion == questionsInHotList) displayedQuestion = 0;
+//    kérdésMegjelenítés()
+//}
